@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nitish Raikhola</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f4f4f9;
+      }
+
+      header {
+        background: #784e4e;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        background: #c26a6a;
+        padding: 0.5rem;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 1rem;
+        font-size: 1.1rem;
+      }
+
+      nav a:hover {
+        color: #ff9800;
+      }
+
+      p {
+        color: #0c508f;
+      }
+
+      #contact p {
+        color: #14180f;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 2rem auto;
+      }
+
+      section {
+        margin-bottom: 2rem;
+      }
+
+      .about {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .about .photo {
+        flex: 1;
+        text-align: center;
+      }
+
+      .about .photo img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      }
+
+      .about .about-text {
+        flex: 2;
+        padding-left: 2rem;
+      }
+
+      .skills,
+      .projects,
+      .contact,
+      .education {
+        background: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      li {
+        color: #c84646;
+      }
+
+      .skills ul {
+        list-style-type: disc;
+        padding-left: 1.5rem;
+      }
+
+      .skills ul li {
+        margin-bottom: 0.5rem;
+      }
+
+      .projects .project {
+        margin-bottom: 1.5rem;
+      }
+
+      .projects .project h3 {
+        margin-bottom: 0.5rem;
+      }
+
+      .projects .project p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem 0;
+        background: #333;
+        color: #fff;
+      }
+
+      /* Education Section Styles */
+      .education-item {
+        margin-bottom: 1.5rem;
+      }
+
+      .education-item h3 {
+        margin-bottom: 0.5rem;
+      }
+
+      .education-item p {
+        color: #2c6b0b;
+      }
+
+      .education-item strong {
+        color: #333;
+      }
+      .education h3 {
+        color: #331eca;
+      }
+
+      @media (max-width: 768px) {
+        nav {
+          flex-direction: column;
+        }
+
+        nav a {
+          margin: 0.5rem 0;
+        }
+
+        header h1 {
+          font-size: 2rem;
+        }
+
+        .container {
+          width: 95%;
+        }
+
+        .about {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .about .about-text {
+          padding-left: 0;
+          margin-top: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Nitish Raikhola</h1>
+      <h5>Web Developer | Data Analyst| Digital Marketer</h5>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+      <section id="about" class="about">
+        <div class="photo">
+          <img src="myphoto.jpg" alt="Ankit Pandey" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Hello! I'm Nitish Raikhola a passionate web developer with
+            experience in creating responsive and user-friendly websites. I
+            enjoy turning ideas into reality and continuously learning new
+            technologies. My expertise lies in HTML, CSS, JavaScript,react and
+            wordpress. I am also proficient in backend technologies such as PHP
+            and SQL.
+          </p>
+          <p>
+            When I am not coding, you can find me exploring new technologies
+            like SEO, SMM etc., reading tech blogs, or experimenting with design
+            tools to improve my creative skills. I am always looking for
+            opportunities to grow and take on exciting challenges in the field
+            of Information Technology.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>React, Bootstrap</li>
+          <li>Mysql</li>
+          <li>Python</li>
+          <li>C,C++</li>
+          <li>Data Analysis with Python</li>
+          <li>Wordpress</li>
+          <li>Java</li>
+          <li>Search Engine Optimization</li>
+          <li>Social Media Marketing</li>
+          <li>Corporate Communication</li>
+          <li>Problem Solving</li>
+        </ul>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-item">
+          <h3>Master of Computer Application</h3>
+          <p>
+            <strong>University Name:</strong> Galgotias University, Greater
+            Noida
+          </p>
+          <p><strong>Duration:</strong> 2024 - 2026</p>
+          <p>
+            <strong>Description:</strong> I pursued a Master's degree in
+            Computer Science, where I gained a strong foundation in programming,
+            data structures, algorithms, and software engineering principles. My
+            academic journey also included hands-on projects that enhanced my
+            web development and data analysis skills.
+          </p>
+        </div>
+        <div class="education-item">
+          <h3>Bachelor of Computer Application</h3>
+          <p>
+            <strong>University Name:</strong> Chaudhary Charan Singh
+            University,Meerut
+          </p>
+          <p><strong>Duration:</strong> 2021 - 2024</p>
+          <p>
+            <strong>Description:</strong> I pursued a Bachelor's degree in
+            Computer Science, where I gained a strong foundation in programming,
+            data structures, algorithms, and software engineering principles. My
+            academic journey also included hands-on projects that enhanced my
+            web development and data analysis skills.
+          </p>
+        </div>
+        <div class="education-item">
+          <h3>Senior Secondary</h3>
+          <p><strong>School Name:</strong> Mnemonic Convent School, Haldwani</p>
+          <p><strong>Year:</strong>2021</p>
+          <p>
+            <strong>Description:</strong> Completed my Intermediate with a focus
+            on science subjects, including Mathematics, Physics, Chemistry.
+          </p>
+        </div>
+
+        <div class="education-item">
+          <h3>Secondary</h3>
+          <p><strong>School Name:</strong>Mnemonic Convent School, Haldwani</p>
+          <p><strong>Year:</strong>2018</p>
+          <p>
+            <strong>Description:</strong> Completed my high school education
+            with a focus on subjects, including Mathematics, Science , English ,
+            Hindi , English
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <br />
+        <div class="project">
+          <h3>Whatsapp Chat Analyzer:</h3>
+          <br />
+          <p>
+            This project focuses on analyzing WhatsApp chat data to extract
+            meaningful insights. Using Python, Pandas, and Regular Expressions
+            (Regex), the raw chat text is processed to structure messages by
+            date, time, user, and message content. Key features include message
+            frequency analysis, active user identification, response time
+            calculation, and time-based messaging patterns. Additionally,
+            Streamlit is used to create an interactive dashboard for data
+            visualization, making it easy to explore trends such as peak
+            chatting hours, most active participants, and daily messaging
+            behavior. This project demonstrates data processing, natural
+            language handling, and visualization skills, making it valuable for
+            social media analysis and business communication insights.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Paws And Purpose:</h3>
+
+          <br />
+          <p>
+            Paws and Purpose is a WordPress-based website designed to support
+            animal welfare initiatives. Built using the Divi theme, the platform
+            provides an interactive and user-friendly experience to encourage
+            donations, spread awareness, and facilitate engagement. The website
+            features a live chat integration that enables real-time
+            communication for queries and support, ensuring seamless interaction
+            between users and the organization. To streamline the donation
+            process, a secure payment gateway has been integrated, allowing
+            users to contribute effortlessly to the cause. Additionally, a
+            dedicated FAQs section provides answers to common concerns,
+            educating visitors about animal welfare and the organization's
+            mission. The website also includes submittable forms, enabling users
+            to report animals in distress, sign up as volunteers, or share their
+            personal experiences related to animal welfare. This project
+            reflects my expertise in WordPress development, UI/UX customization,
+            and functional integrations, demonstrating my ability to create a
+            meaningful and impactful digital presence for a social cause. This
+            is the link to the website: techxcharityfunds.rf.gd.
+          </p>
+        </div>
+        <div class="project">
+          <h3>TravelZoo:</h3>
+          <br />
+          <p>
+            TravelZoo is a dynamic trip planner website designed to enhance the
+            travel experience by providing essential information and seamless
+            booking functionality. Developed using HTML, CSS, and JavaScript,
+            the platform offers an intuitive and visually appealing interface
+            for users to plan their trips efficiently. One of the key features
+            of TravelZoo is the integration of a Weather API, which allows users
+            to check the weather conditions of their desired destination before
+            visiting, ensuring better travel planning. Additionally, the website
+            includes a submittable booking form, enabling users to make
+            reservations conveniently. This project showcases my proficiency in
+            front-end web development, API integration, and interactive UI
+            design, demonstrating my ability to build functional and
+            user-centric web applications.
+          </p>
+        </div>
+      </section>
+      <section class="contact">
+        <h2>Internships</h2>
+        <br />
+        <h3>Minzor Pvt. Ltd.,Dwarka, New Delhi (June 2023-October 2023):</h3>
+        <p>
+          During my internship at Minzor Private Limited, I gained hands-on
+          experience in web development, WordPress, and digital marketing tools
+          such as SEO (Search Engine Optimization) and SMM (Social Media
+          Marketing). Working on real-world projects, I honed my skills in
+          building and optimizing websites, enhancing their performance, and
+          improving their online visibility through strategic digital marketing
+          techniques. In web development, I worked extensively with WordPress,
+          customizing themes, optimizing website speed, and implementing various
+          functionalities to enhance user experience. My exposure to SEO
+          involved optimizing website content, conducting keyword research, and
+          improving search rankings, while in SMM, I contributed to social media
+          campaigns aimed at boosting engagement and brand awareness. My
+          dedication and performance were recognized during my tenure, and I was
+          honored as the Best Intern of the Month, reflecting my commitment to
+          excellence and my ability to deliver impactful results.
+        </p>
+        <p>Email: raikholanitish3@gmail.com</p>
+      </section>
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>
+          If you'd like to get in touch, feel free to reach out via email or
+          connect with me on LinkedIn.
+        </p>
+        <p>Email: raikholanitish3@gmail.com</p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/nitish-raikhola-106274267/"
+            target="_blank"
+            >LinkedIn Profile</a
+          >
+        </p>
+        <p>Address: Vyas Dev Vihar, Haldwani, Nainital, 263139.</p>
+      </section>
+
+     
+    </div>
+
+    <footer>
+      <h4>&copy; 2025 Nitish Raikhola. All Rights Reserved.</h4>
+    </footer>
+  </body>
+</html>
